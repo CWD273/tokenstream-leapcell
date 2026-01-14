@@ -1,6 +1,7 @@
 // server.js (Leapcell - Token Service)
 import express from 'express';
 import puppeteer from 'puppeteer';
+import { executablePath } from 'puppeteer';
 
 const app = express();
 const PORT = process.env.PORT || 8080;
